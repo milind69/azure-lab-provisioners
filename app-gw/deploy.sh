@@ -6,4 +6,4 @@ yum install -y docker-ce-18.06.1.ce-3.el7
 systemctl enable docker
 systemctl start docker
 # Run the web application and set the hostname environment variable
-docker run -e hostname=$(hostname) -p 80:80 --restart always -d lrakai/tetris:hostname
+docker run -e hostname=$(hostname) -p 80:80 --restart always -d lrakai/tetris
